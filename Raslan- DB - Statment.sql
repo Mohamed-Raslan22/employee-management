@@ -8,6 +8,7 @@
 --
 -- Table structure for table `department`
 --
+CREATE DATABASE employeemanagementsystem;
 
 DROP TABLE IF EXISTS `department`;
 
