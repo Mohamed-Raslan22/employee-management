@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "RequestResponseLog")
+@Table(name = "requestResponseLog")
 public class RequestResponseLog {
     @Id
 	@Column(name="ID")

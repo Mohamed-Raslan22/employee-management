@@ -52,8 +52,8 @@ INSERT INTO `employee` VALUES (1,'Apoorva','Joshi',4,'Active'),(2,'Tim','Cook',3
 UNLOCK TABLES;
 
 
-DROP TABLE IF EXISTS `RequestResponseLog`;
-CREATE TABLE `RequestResponseLog` (
+DROP TABLE IF EXISTS `request_response_log`;
+CREATE TABLE `request_response_log` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `REQUEST_ID` varchar(100) DEFAULT NULL,
   `REQUEST_URL` varchar(100) DEFAULT NULL,
